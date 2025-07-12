@@ -1,0 +1,159 @@
+@font-face {
+    font-family:'poppins';
+    src: url('/public/fonts/poppins.ttf');
+
+}
+*{
+    margin: 0;
+    padding:0;
+    font-family: "poppins", sans-serif;
+}
+.Hero{
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: -1.92px;
+}
+.H1,h1{
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 500;
+    /*line-height: 105%;*/
+    letter-spacing: -3px;
+}
+.H2 ,h2{
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 500;
+    /*line-height:  105.556% ;*/
+    letter-spacing: -2px;
+}
+.H3,h3{
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 500;
+    /*line-height: 107.407%;*/
+    letter-spacing: -1px;
+}
+.H4,h4{
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    /*line-height: 110%;*/
+    letter-spacing: -0.4px;
+}
+
+.H5,h5{
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+    /*line-height: 111.765%;*/
+    letter-spacing: -0.6px;
+}
+.H6,h6{
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    /*line-height: 121.429%;*/
+    letter-spacing: -0.6px;
+}
+
+.H7{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    /*line-height: 140%;*/
+}
+.ButtonXLarge{
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    /*line-height: 146.154%;*/
+}
+.ButtonLarge{
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    /*line-height: 34px; !* 154.545% *!*/
+}
+.ButtonMedium{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    /*line-height: 32px; !* 177.778% *!*/
+    letter-spacing: -0.4px;
+}
+.ButtonSmall{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    /*line-height: 28px; !* 175% *!*/
+    letter-spacing: -0.4px;
+}
+
+.ButtonXSmall{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    /*line-height: 24px; !* 171.429% *!*/
+}
+
+.Text26{
+    /*font-family: Inter,SansSerif,fantasy;*/
+    font-size: 26px;
+    font-style: normal;
+    /*font-weight: 400;*/
+}
+.Text24{
+    /*font-family: Inter,SansSerif,fantasy;*/
+    font-size: 24px;
+    font-style: normal;
+    /*font-weight: 400;*/
+}
+.Text22{
+    /*font-family: Inter,SansSerif,fantasy;*/
+    font-size: 22px;
+    font-style: normal;
+    /*font-weight: 400;*/
+
+}
+.Text20{
+    /*font-family: Inter,SansSerif,fantasy;*/
+    font-size: 20px;
+    font-style: normal;
+    /*font-weight: 400;*/
+}
+.Text16{
+    font-family:'poppins' ,Inter,SansSerif,fantasy;
+    font-size: 16px;
+    font-style: normal;
+    /*font-weight: 400;*/
+
+}
+.Text14{
+    /*font-family: Inter,SansSerif,fantasy;*/
+    font-size: 14px;
+    font-style: normal;
+    /*font-weight: 400;*/
+}
+
+.Text12{
+    /*font-family: Inter,SansSerif,fantasy;*/
+    font-size: 12px;
+    font-style: normal;
+}
+.AverageBald{
+    font-weight: 400;
+}
+
+.LittleBald{
+    font-weight: 500;
+}
+.SemiBald{
+    font-weight: 600;
+}
+.Bald{
+    font-weight: 700;
+}

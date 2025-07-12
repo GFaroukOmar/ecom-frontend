@@ -1,0 +1,369 @@
+/*navigation bar styling*/
+
+#small-screen-overlay-menu-style{
+    position: fixed;
+    top: 0;
+    z-index:2;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.45);
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#small-screen-navigation-links-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+/*hero section*/
+
+/*hero section slider styling*/
+.home-hero-slider-image{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    max-height: 536px;
+}
+#right-arrow{
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(calc(-100% - 16px),-50% );
+    color:white;
+    width: 52px;
+    height: 52px;
+
+}
+#left-arrow{
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    transform: translate(calc(100% + 16px), -50%);
+    z-index: 1;
+    color:white;
+    width: 52px;
+    height: 52px;
+}
+/*product carousel*/
+/*product card style*/
+.product-card-type1{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.product-card-type1 .card-upper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 262px;
+    height: 348px;
+    background-color: #F3F5F7;
+    min-width: 262px;
+    border-radius: 8px;
+    background-blend-mode: multiply, normal;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+.product-card-type1 .image-container{
+    border-top-left-radius:8px ;
+    border-top-right-radius: 8px;
+    width: 100%;
+    height: 70%;
+    background-size: 600px 600px;
+    background-color: #F3F5F7;
+    /*background-size: 100% 100%;*/
+    background-blend-mode: multiply, normal;
+    background-repeat:no-repeat;
+    background-position:center;
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+}
+.product-card-type1 .content-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding:16px;
+}
+
+.product-card-type1 .badges-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*width:isSmallScreen?'231px':'262px',*/
+/*height:isSmallScreen?'308px':'348px',*/
+/*backgroundColor: '#F3F5F7',*/
+/*minWidth:isSmallScreen?'231px':'262px',*/
+/*borderRadius:'8px',*/
+/*backgroundImage:mainImage,*/
+/*backgroundSize:'30px 30px'*/
+
+/* Basic reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* Container for the app */
+.Appw {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 900px;
+    text-align: center;
+}
+
+
+
+/* Styling for the drag-and-drop area */
+.drop-area {
+    border: 2px dashed #cccccc;
+    padding: 30px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: border-color 0.3s;
+}
+
+.drop-area:hover {
+    border-color: #888888;
+}
+
+.drop-area p {
+    font-size: 18px;
+    color: #555555;
+}
+
+.drop-area button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.drop-area button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for the image thumbnails */
+.thumbnails {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.thumbnail {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.thumbnail:hover {
+    transform: scale(1.05);
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Highlight the selected main image */
+.thumbnail.main {
+    border-color: #007bff;
+}
+
+.remove-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.remove-btn:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Styling for the main image section */
+.main-image {
+    margin-top: 30px;
+}
+
+.main-image h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.main-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/*loader style*/
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid black;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/*notification style */
+/* Container for notifications */
+#notifications {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px; /* Space between notifications */
+    z-index: 1000; /* Ensure notifications appear above other content */
+}
+
+/* Individual notification styles */
+.notification {
+    position: relative;
+    width: 300px;
+    padding: 12px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+    opacity: 1;
+    cursor: pointer;
+    transition: opacity 0.5s ease-out;
+    overflow: hidden;
+    background-color: #333; /* Default background color */
+}
+
+/* Background color for different notification types */
+.notification.success {
+    background-color: green;
+}
+
+.notification.error {
+    background-color: red;
+}
+
+.notification.info {
+    background-color: blue;
+}
+
+/* The bottom border that acts as a loading bar (progress bar) */
+.notification::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: white;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: progress-bar 2s linear forwards; /* Forward so it stays after completion */
+}
+
+/* Hover effect to freeze the progress bar animation */
+.notification:hover::after {
+    animation-play-state: paused; /* Freeze the progress bar animation */
+}
+
+/* Close button styles */
+.notification .close-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.notification .close-btn:hover {
+    color: lightgray;
+}
+
+/* Progress bar animation */
+@keyframes progress-bar {
+    0% {
+        transform: scaleX(0);
+    }
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+/* Fade-out effect when disappearing */
+.notification.fade-out {
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+}
+
+/* Hover effect to show the notification is active */
+.notification:hover {
+    opacity: 1;
+    transition: opacity 0.3s ease-in;
+}
+
+
+
+/*product edit create accordions styling */
+.accordion-button:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #f8f9fa !important;
+    color: #212529 !important;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125) !important;
+}
+
+
+/*product page styling*/
