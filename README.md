@@ -1,4 +1,4 @@
-<img width="1870" height="3951" alt="desktop-full-landing-page" src="https://github.com/user-attachments/assets/12121081-8579-48f9-8f1c-9c7cdcab1f5a" /># 🛍️ Elegant Shopping Frontend – React JS
+Elegant Shopping Frontend – React JS
 
 A modern, responsive, and aesthetically refined e-commerce frontend built using React JS. This project showcases a seamless user interface designed to deliver a smooth and engaging shopping experience across all devices.
 
@@ -58,6 +58,7 @@ Your frontend will be running locally at `http://localhost:3000`
 This project was built to demonstrate clean frontend architecture, modern UI practices, and performance-first design – perfect for showcasing on freelance platforms like Upwork.
 
 ## 📸 Preview
+<img width="1870" height="3951" alt="desktop-full-landing-page" src="https://github.com/user-attachments/assets/12121081-8579-48f9-8f1c-9c7cdcab1f5a" />
 <img width="1870" height="3951" alt="desktop-full-landing-page" src="https://github.com/user-attachments/assets/0a4edba0-b9cf-4910-b1fd-94e5d37d42df" />
 
 
