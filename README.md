@@ -59,14 +59,14 @@ This project was built to demonstrate clean frontend architecture, modern UI pra
 
 ## 📸 Preview
 <img width="1870" height="3951" alt="desktop-full-landing-page" src="https://github.com/user-attachments/assets/12121081-8579-48f9-8f1c-9c7cdcab1f5a" />
-<img width="1870" height="3951" alt="desktop-full-landing-page" src="https://github.com/user-attachments/assets/0a4edba0-b9cf-4910-b1fd-94e5d37d42df" />
+
 
 
 
 ## 📩 Contact
 
 For collaboration or hiring inquiries, feel free to reach out:  
-📧 [farouk_omar_guidoum@gmail.com](mailto:farouk_omar_guidoum@gmail.com)
+📧 [faroukomarguidoum@gmail.com](mailto:faroukomarguidoum@gmail.com)
 
 ---
 
